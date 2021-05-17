@@ -15,7 +15,7 @@ public class ProductApiApplication {
 		
 		
 		SpringApplication application = new SpringApplication(ProductApiApplication.class);
-        application.setDefaultProperties(Collections.singletonMap("server.port", "8884"));
+        application.setDefaultProperties(Collections.singletonMap("server.port", "8881"));
         application.run(args);
 		
 	}
