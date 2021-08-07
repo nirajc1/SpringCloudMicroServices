@@ -5,7 +5,7 @@ import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
 class ProductApiApplicationTests {
-
+//added comments  for test
 	@Test
 	void contextLoads() {
 	}
