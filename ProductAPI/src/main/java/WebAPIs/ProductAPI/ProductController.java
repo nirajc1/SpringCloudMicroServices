@@ -22,6 +22,7 @@ public class ProductController {
 		
 		//adding comments
 		//adding second commit
+		//comment 3
 		
 	    String sql = "SELECT * FROM Product";	    
 	    List<Product> products = jdbc.query(sql, BeanPropertyRowMapper.newInstance(Product.class));
