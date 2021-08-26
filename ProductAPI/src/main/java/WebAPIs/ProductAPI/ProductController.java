@@ -20,6 +20,8 @@ public class ProductController {
 	@GetMapping("/products")
 	public List<Product> getProductList() {	
 		
+		//adding comments
+		
 	    String sql = "SELECT * FROM Product";	    
 	    List<Product> products = jdbc.query(sql, BeanPropertyRowMapper.newInstance(Product.class));
 	    
