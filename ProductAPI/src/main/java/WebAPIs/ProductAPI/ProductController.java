@@ -20,7 +20,9 @@ public class ProductController {
 	@GetMapping("/products")
 	public List<Product> getProductList() {	
 		
-	    String sql = "SELECT top 10  * FROM Product";
+		//adding comments
+		
+	    String sql = "SELECT * FROM Product";	    
 	    List<Product> products = jdbc.query(sql, BeanPropertyRowMapper.newInstance(Product.class));
 	    
 		/*Product p1 = new Product("1","Oil");
