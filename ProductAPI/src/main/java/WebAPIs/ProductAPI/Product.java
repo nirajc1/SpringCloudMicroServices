@@ -42,6 +42,8 @@ private String Category;
 
 private String Manufacturer;
 
+private String DeepasTest;
+
 
 
 
